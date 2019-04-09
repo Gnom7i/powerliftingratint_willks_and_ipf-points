@@ -1,0 +1,37 @@
+﻿# Russian translation of Drupal core (7.15)
+# Copyright (c) 2012 by the Russian translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal core (7.15)\n"
+"POT-Creation-Date: 2012-08-08 18:02+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+#: zite.module:8
+msgid "Comment in node"
+msgstr "Комментарий в ноду"
+
+#: zite.module:22
+msgid "General options"
+msgstr "Основные настройки"
+
+#: zite.module:31
+msgid  "Select necessary types:"
+msgstr "Выберите необходимые типы:"
+
+#: zite.module:32
+msgid "In selected types will be available to include comments in the body of a node."
+msgstr "В выбранных типах будет доступна опция включения комментария в тело ноды"
+
+#: zite.module:54
+msgid "Put in comment in node body"
+msgstr "Вставить комментарий в ноду"
+
+#: zite.module:54
+msgid "Turn on this option if you want to add the comment in the material, and not to write a comment"
+msgstr "Включите данный флажок, если вы хотите добавить текст комментария в тело материала, а не написать отдельный комментарий"

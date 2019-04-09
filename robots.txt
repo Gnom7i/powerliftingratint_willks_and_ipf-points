@@ -1,0 +1,87 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Disallow: /rss.xml
+Disallow: /database/
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /sites/
+Disallow: /themes/
+Disallow: /scripts/
+Disallow: /updates/
+Disallow: /profiles/
+Disallow: /profile
+Disallow: /profile/*
+Disallow: /xmlrpc.php
+Disallow: /cron.php
+Disallow: /update.php
+Disallow: /install.php
+Disallow: /index.php
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /contact/
+Disallow: /logout/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: *register*
+Disallow: *login*
+Disallow: /top-rated-
+Disallow: /messages/
+Disallow: /book/export/
+Disallow: /user2userpoints/
+Disallow: /myuserpoints/
+Disallow: /tagadelic/
+Disallow: /referral/
+Disallow: /aggregator/
+Disallow: /files/pin/
+Disallow: /your-votes
+Disallow: /comments/recent
+Disallow: /*/edit/
+Disallow: /*/delete/
+Disallow: /*/export/html/
+Disallow: /*/edit$
+Disallow: /*/outline$
+Disallow: /*/revisions$
+Disallow: /*/contact$
+Disallow: /*downloadpipe
+Disallow: /node$
+Disallow: /node/*/track$
+Disallow: *?page=*
+Disallow: /*&
+Disallow: /*%
+Disallow: /*?page=0
+Disallow: /*section
+Disallow: /*order
+Disallow: /*?sort*
+Disallow: /*&sort*
+Disallow: /*votesupdown
+Disallow: /*calendar
+Disallow: /*index.php
+Disallow: /*?
+Disallow: /taxonomy/
+Disallow: /newblog/
+Disallow: /taxonomy/*
+Disallow: /newblog/*
+Disallow: /comment/*
+Disallow: /blog/
+Disallow: /user/
+Disallow: /comment/
+
+
+Host: https://powerliftingrating.ru
+Sitemap: https://powerliftingrating.ru/sitemap.xml

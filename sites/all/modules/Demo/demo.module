@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * hook_menu
+ */
+function demo_menu() {
+  $items['demo'] = array(
+    'title' => 'Demo', 
+    'page callback' => 'demo_page', 
+    'access arguments' => array('access content'), 
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+function demo_page() {
+  return "Привет, мир!";
+}

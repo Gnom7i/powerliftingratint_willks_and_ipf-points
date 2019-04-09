@@ -1,0 +1,9 @@
+name = Yandex Turbo
+description = Yandex.Turbo RSS 2.0 export module
+core = 7.x
+configure = admin/config/services/yandex-turbo
+; Information added by Drupal.org packaging script on 2018-09-05
+version = "7.x-2.0"
+core = "7.x"
+project = "yandex_turbo"
+datestamp = "1536154691"

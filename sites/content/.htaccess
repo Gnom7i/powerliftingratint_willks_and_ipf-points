@@ -1,0 +1,14 @@
+AddDefaultCharset WINDOWS-1251
+DirectoryIndex index.php
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /content/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule index.php.* - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php?url=$0 [L,QSA]

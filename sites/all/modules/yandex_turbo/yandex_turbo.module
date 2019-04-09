@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function yandex_turbo_menu()
+{
+    $items = array();
+
+    $items['admin/config/services/yandex-turbo'] = array(
+        'title' => 'Yandex.Turbo RSS',
+        'description' => 'Configure the RSS node types, title, description, nodes sort order and analytics.',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('yandex_turbo_settings'),
+        'access arguments' => array('access administration pages'),
+        'type' => MENU_NORMAL_ITEM,
+        'file' => 'yandex_turbo.settings.inc',
+    );
+
+    $items['yandex.turbo.rss'] = array(
+        'title' => 'Yandex Turbo RSS feed',
+        'page callback' => 'yandex_turbo_page_rss',
+        'access arguments' => array('access content'),
+        'type' => MENU_NORMAL_ITEM,
+        'file' => 'yandex_turbo.pages.inc',
+    );
+
+    return $items;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function yandex_turbo_theme($existing, $type, $theme, $path)
+{
+    return array(
+        'yandex_turbo_page_rss' => array(
+            'variables' => array('feeds' => NULL),
+            'file' => 'yandex_turbo.pages.inc',
+        ),
+    );
+}

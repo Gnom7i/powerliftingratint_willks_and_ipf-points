@@ -1,0 +1,4 @@
+name = Demo
+description = Простейший модуль Drupal 7.
+package = Example modules
+core = 7.x
